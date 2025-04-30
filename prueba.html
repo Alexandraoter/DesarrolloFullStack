@@ -18,8 +18,20 @@ de un formulario HTML. Cuando el usuario envíe este formulario, los datos será
                 <input type="text" id="nombre" name="nombre" required> <!-- crea el campo donde el usuario puede escribir su nombre, tiene un ID
 para la asociación con la etiqueta, un nombre para enviar los datos al servidor y es un campo obligatoriocampo de texto para el nombre-->
                 <label for="email">Correo Electronico:</label>
-                <input type="text" id="email" name="email" required> <!-- crea el campo donde el usuario puede escribir su correo electronico, tiene un ID   
+                <input type="text" id="email" name="email" required> <!-- crea el campo donde el usuario puede escribir su correo electronico, tiene un ID --> 
+                
+                <label for="telefono">Telefono:</label> <!-- campo para el telefono-->
+                <input type="number" id="telefono" name="telefono" <!-- se pone number porque la entrada es solo de numeros 
+                xq si se pone telefono tambien se podrian ingresar letras-->
 
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" id="fecha" name="fecha"> <!--tipo de entrada date porque es fecha-->
+            </fieldset>
+
+            <fieldset> <!-- crea como es borde donde va la informacion-->
+                <legend>Mensaje</legend> <!-- Titulo de cada sesion de el formulario-->
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
             </fieldset>
 
         </form>
