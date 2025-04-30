@@ -12,6 +12,15 @@
     <main> 
         <form action="/submit" method="post"> <!-- esto significa Estoy definiendo el inicio 
 de un formulario HTML. Cuando el usuario envíe este formulario, los datos serán enviados a la dirección /submi URL utilizando el método HTTP POST-->
+            <fieldset> <!-- se utiliza para agrupar elementos relacionados dentro de un formulario crea  esos "cajoncitos" visuales para cada sección.-->
+                <legend>Información personal </legend><!-- se utiliza para definir un título o una leyenda para el contenido del <fieldset> al que pertenece-->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required> <!-- crea el campo donde el usuario puede escribir su nombre, tiene un ID
+para la asociación con la etiqueta, un nombre para enviar los datos al servidor y es un campo obligatoriocampo de texto para el nombre-->
+                <label for="email">Correo Electronico:</label>
+                <input type="text" id="email" name="email" required> <!-- crea el campo donde el usuario puede escribir su correo electronico, tiene un ID   
+
+            </fieldset>
 
         </form>
     </main>
