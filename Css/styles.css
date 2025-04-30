@@ -1,7 +1,7 @@
 /* styles.css */
 
 /* Estilos generales */
-body {
+body { 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     }
     
     /* Estilos para el encabezado */
-    header {
+    header { /* Aplica un fondo verde y texto blanco al encabezado.*/
     
    
     
@@ -121,4 +121,17 @@ body {
     width: 100%;
     bottom: 0;
 }
-
+/* body: Define estilos generales para el cuerpo de la página, como la fuente y el color de
+fondo.
+• header: Aplica un fondo verde y texto blanco al encabezado.
+• nav ul: Elimina los estilos de lista predeterminados y alinea los elementos de la lista
+horizontalmente.
+• main: Añade padding, un fondo blanco, y una sombra para el contenido principal.
+• section: Establece márgenes entre las secciones y añade un borde inferior al título.
+• article: Establece márgenes entre los artículos.
+• figure: Centra las imágenes y ajusta su tamaño.
+• video: Ajusta el tamaño del video para que no exceda el ancho del contenedor.
+• iframe, embed: Ajusta el tamaño de los elementos embebidos para que no excedan el
+ancho del contenedor.
+• footer: Estiliza el pie de página con un fondo oscuro y texto blanco, y lo fija en la parte
+inferior de la página.*/
