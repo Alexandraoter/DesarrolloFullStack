@@ -1,0 +1,28 @@
+/* Estilo inicial del botón */
+#boton1 { /*EL # para llamar el id*/
+    background-color:bisque;
+    color:chocolate;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición de 0.3 segundos */
+}
+    /* Estilo del botón al pasar el cursor */
+#boton1:hover {
+    background-color:brown; /* Cambio de color de fondo */
+    color:bisque
+}
+
+#boton2 { /*EL # para llamar el id*/
+    background-color:coral;
+    color:cornsilk;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición de 0.3 segundos */
+}
+    /* Estilo del botón al pasar el cursor */
+#boton2:hover {
+    background-color:cornsilk; /* Cambio de color de fondo */
+    color:brown
+}

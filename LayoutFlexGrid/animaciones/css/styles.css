@@ -1,0 +1,88 @@
+/*  La regla @keyframes en CSS se utiliza para definir animaciones,
+permitiendo que los elementos cambien sus estilos gradualmente a lo
+largo de una serie de pasos. Con @keyframes, puedes especificar diferentes
+puntos en el tiempo donde los estilos de un elemento deben modificarse, 
+creando efectos visuales como movimientos, cambios de color, transformaciones y 
+másDefinición de la animación con @keyframes */
+@keyframes examplex {
+    from {
+    background-color: rgb(44, 204, 65);
+    transform: translateX(0);
+    }
+    to {
+    background-color:rgb(167, 119, 255);
+    transform: translateX(100px);
+    }
+}
+
+@keyframes examply {
+    from {
+    background-color: rgb(255, 81, 188);
+    transform: translateY(0);
+    }
+    to {
+    background-color:rgb(255, 155, 119);
+    transform: translateY(50px);
+    }
+}
+
+@keyframes examplez {
+    from {
+    background-color: rgb(255, 81, 188);
+    transform: translateZ(0);
+    }
+    to {
+    background-color:rgb(255, 155, 119);
+    transform: translateZ(100px);
+    }
+}
+
+
+    /* Aplicación de la animación al div */
+#x {
+    width: 100px;
+    height: 100px;
+    background-color:cornsilk;
+    animation: examplex 2s infinite alternate; /* Animación de 2 segundos,
+    infinita y alternada */
+}
+
+
+#y{
+    width: 100px;
+    height: 100px;
+    background-color:cornsilk;
+    animation: examply 2s infinite alternate; /* Animación de 2 segundos,
+    infinita y alternada */
+}
+
+
+#z{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(117, 98, 21);
+    animation: examplz 2s infinite alternate; /* Animación de 2 segundos,
+    infinita y alternada */
+}
+
+div{
+    background-color: aquamarine;
+    animation: fade 3s infinite alternate;
+}
+
+@keyframes fadeout{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0 ;
+    }
+}
+
+.fade{
+    
+    width: 200px;
+    height: 100px;
+    font-size: xx-large;
+    animation: fadeout 3s infinite;
+}
