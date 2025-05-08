@@ -1,0 +1,48 @@
+body{ /*este es el selector body y se esta cambiando la letra que va dentro de ese body*/
+    font-family: 'Times New Roman', Times, serif; /*tipo de letra*/
+    margin: 0;
+    padding:0;
+    
+
+}
+
+.container{
+    display:flex; /*el contenedor y el . significa 
+    que todo lo que esta dentro de el se vuelve con esto un contenedor flexible*/
+    flex-direction: column;/*los ítems que van dentro del container se organizarán verticalmente, uno encima del otro, como si estuvieran en una columna*/
+    align-items: center;/*aqui se alinean todos los items que estan en el
+    contender en ek centro de la columna*/
+    padding:20px;
+}
+
+.header, .main, .footer{  /*Son las clases dentro del contenedor*/
+    width: 100%; /* Esta propiedad establece el ancho de cada uno de estos elementos al 100%*/
+    padding:20px;/*El padding define el espacio interno alrededor del contenido de
+    cada elemento. En este caso, se aplicará un espacio de 20 píxeles en todos los lados (arriba, abajo, izquierda y derecha) d*/
+    margin: 10px 0;/* El margin define el espacio exterior alrededor de un elemento, separándolo de los elementos vecinos. Aquí, 
+    se están estableciendo márgenes verticales de 10 píxeles (10 píxeles arriba y 10 píxeles abajo) y márgenes horizontales de 0 píxeles 
+    (sin margen a la izquierda ni a la derecha). Esto creará un espacio de 10 píxeles entre el .header y el .main, y entre el .main y el .footer, ya que están apilados verticalmente debido a flex-direction: column;*/
+    text-align: center; /*Esta propiedad alinea el texto*/
+}
+
+@media(min-width:600px){ /*estilos para las pantallas de de minimo 600px de ancho
+    Cuando el ancho de la ventana del navegador (viewport) sea de 500 píxeles o 
+    más, se aplicará el estilo dentro de las llaves, que en este caso es*/
+    .container{ /*se toma la clase container para ahora hacerlo con filas*/
+        flex-direction: row;
+    }
+
+    .header, .main, .footer{
+        width:30;
+    }
+}
+
+@media(min-width:900px){/* estilos de pantalla de al menos 900px de ancho */
+    .main, .header, .footer{
+        width: 900px; ;
+}
+}
+
+
+
+
