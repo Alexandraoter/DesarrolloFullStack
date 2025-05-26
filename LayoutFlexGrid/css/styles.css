@@ -1,0 +1,21 @@
+/* Contenedor Flex */
+.container {
+    display: flex;
+    /* el flex box o solo deja horizontal o solo vertical */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Altura del contenedor */
+    background-color: #f0f0f0;
+    }
+    
+
+    /* Elementos Flex */
+    .item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-grow: 1; /* Cada elemento crecerá para llenar el espacio disponible */
+    }

@@ -1,0 +1,184 @@
+body {
+    background-color: rgba(253, 184, 230, 0.459); /*este es el fondo de la pagina*/
+}
+/*AL HEAD NO SE LE PONE ESTILOS, ES DEL BODY PARA ABAJO*/
+
+p{/*si no se especifica para que parrafo, este tipo de letra puede aplicar
+   a todos los parrafos*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: bisque;
+}
+
+nav { /*esto es para la parte de los links*/
+    background-color: beige;
+}
+#seccion1 { /*esto es para el primer parrafo que hay*/
+    font-size:larger;
+    background-color:rgb(236, 202, 231);
+}
+
+div { /*el espacio del titulo y el parrafo*/
+
+    width: 500px; /*ancho del cuadro */
+    padding: 10px; /*espacio entre el contenido y el borde*/
+    border-style:groove;  /*borde alrededor del padding*/
+    border: 10px solid yellow; /*ancho del borde y con color*/
+    margin: 15; /*espacio exterior al rededor del borde*/
+}
+
+.inter { /*Este es para agregar este estilo de fuente al titulo BIENVENIDO A MI PAGINA*/
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30;
+    font-style: normal;
+  }
+
+figure { /*arreglos para la margen de la imagen*/
+
+    width: 150x;
+    padding:20px;
+    border-style:outset;
+    border:5px solid rgb(245, 131, 90);
+
+}
+
+/* styles.css 
+
+/* Estilos generales 
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    }
+    
+    /* Estilos para el encabezado 
+    header { /* Aplica un fondo verde y texto blanco al encabezado.
+    
+   
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    }
+    
+    header h1 {
+    margin: 0;
+    }
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+    
+    nav ul li {
+    margin: 0 1em;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    /* Estilos para el contenido principal 
+    main {
+    
+   
+    
+    padding: 2em;
+    background-color: white;
+    margin: 1em auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    section {
+    margin-bottom: 2em;
+    }
+    
+    section h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5em;
+    }
+    
+    article {
+    margin-bottom: 1.5em;
+    }
+    
+    article header h3 {
+    margin: 0;
+    color: #4CAF50;
+    }
+    
+    article p {
+    line-height: 1.6;
+    }
+    
+    
+    
+    /* Estilos para imágenes y figuras 
+    figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    
+    figure img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    figcaption {
+    font-size: 0.9em;
+    color: #555;
+    }
+    
+    /* Estilos para videos 
+    video {
+    display: block;
+    max-width: 100%;
+    margin: 1em 0;
+    }
+    
+    /* Estilos para iframes y embeds 
+    iframe, embed {
+    display: block;
+    max-width: 100%;
+    
+    
+    
+    margin: 1em 0;
+    }
+    
+    /* Estilos para el pie de página 
+    footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* body: Define estilos generales para el cuerpo de la página, como la fuente y el color de
+fondo.
+• header: Aplica un fondo verde y texto blanco al encabezado.
+• nav ul: Elimina los estilos de lista predeterminados y alinea los elementos de la lista
+horizontalmente.
+• main: Añade padding, un fondo blanco, y una sombra para el contenido principal.
+• section: Establece márgenes entre las secciones y añade un borde inferior al título.
+• article: Establece márgenes entre los artículos.
+• figure: Centra las imágenes y ajusta su tamaño.
+• video: Ajusta el tamaño del video para que no exceda el ancho del contenedor.
+• iframe, embed: Ajusta el tamaño de los elementos embebidos para que no excedan el
+ancho del contenedor.
+• footer: Estiliza el pie de página con un fondo oscuro y texto blanco, y lo fija en la parte
+inferior de la página.*/

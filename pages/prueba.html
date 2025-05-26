@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        </h1> FORMULARIO DE CONTACTO </h1> <!-- titulo principal-->
+    </header>
+    <main> 
+        <form action="/submit" method="post"> <!-- esto significa Estoy definiendo el inicio 
+de un formulario HTML. Cuando el usuario envíe este formulario, los datos serán enviados a la dirección /submi URL utilizando el método HTTP POST-->
+            <fieldset> <!-- se utiliza para agrupar elementos relacionados dentro de un formulario crea  esos "cajoncitos" visuales para cada sección.-->
+                <legend>Información personal </legend><!-- se utiliza para definir un título o una leyenda para el contenido del <fieldset> al que pertenece-->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required> <!-- crea el campo donde el usuario puede escribir su nombre, tiene un ID
+para la asociación con la etiqueta, un nombre para enviar los datos al servidor y es un campo obligatoriocampo de texto para el nombre-->
+                <label for="email">Correo Electronico:</label>
+                <input type="text" id="email" name="email" required> <!-- crea el campo donde el usuario puede escribir su correo electronico, tiene un ID --> 
+                
+                <label for="telefono">Telefono:</label> <!-- campo para el telefono-->
+                <input type="number" id="telefono" name="telefono" <!-- se pone number porque la entrada es solo de numeros 
+                xq si se pone telefono tambien se podrian ingresar letras-->
+
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" id="fecha" name="fecha"> <!--tipo de entrada date porque es fecha-->
+            </fieldset>
+
+            <fieldset> <!-- crea como es borde donde va la informacion-->
+                <legend>Mensaje</legend> <!-- Titulo de cada sesion de el formulario-->
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            </fieldset>
+
+            <button type="submit ">Enviar</button>
+            
+
+
+        </form>
+    </main>
+
+    <a href="../index.html">Anterior</a> <!-- los puntos es para que se devuelva porque index no esta dentro
+    de una carpeta como tal, sino que es la principal, sino se le colocaran los puntos seria como si el
+    index estuviera dentro de la carpeta pages-->
+    <footer>
+        <p>&copy;2024 Forulario de contacto. Todos los derechos reservados.</p>
+    </footer>
+    
+
+    
+</body>
+</html>
