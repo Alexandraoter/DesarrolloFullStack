@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(253, 184, 230, 0.459); /*este es el fondo de la pagina*/
+}
+/*AL HEAD NO SE LE PONE ESTILOS, ES DEL BODY PARA ABAJO*/
+
+p{/*si no se especifica para que parrafo, este tipo de letra puede aplicar
+   a todos los parrafos*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: bisque;
+}
+
+nav { /*esto es para la parte de los links*/
+    background-color: beige;
+}
+#seccion1 { /*esto es para el primer parrafo que hay*/
+    font-size:larger;
+    background-color:rgb(236, 202, 231);
+}
+
+div { /*el espacio del titulo y el parrafo*/
+
+    width: 500px; /*ancho del cuadro */
+    padding: 10px; /*espacio entre el contenido y el borde*/
+    border-style:groove;  /*borde alrededor del padding*/
+    border: 10px solid yellow; /*ancho del borde y con color*/
+    margin: 15; /*espacio exterior al rededor del borde*/
+}
+
+.inter { /*Este es para agregar este estilo de fuente al titulo BIENVENIDO A MI PAGINA*/
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30;
+    font-style: normal;
+  }
+
+figure { /*arreglos para la margen de la imagen*/
+
+    width: 150x;
+    padding:20px;
+    border-style:outset;
+    border:5px solid rgb(245, 131, 90);
+
+}
+
+

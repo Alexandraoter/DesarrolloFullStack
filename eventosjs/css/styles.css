@@ -1,0 +1,13 @@
+body{
+    background-color: blanchedalmond;
+}
+
+#mensaje{
+    color: brown;
+}
+
+button{
+    color:chocolate;
+    background-color:beige;
+    border-radius: 0.5em;
+}
